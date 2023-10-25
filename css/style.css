@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-ExtraLightItalic.ttf");
+}
+
+body {
+    font-family:"Poppins", sans-serif;
+    src: url("../fonts/Poppins-ExtraLightItalic.ttf");
+    background-image:linear-gradient(to top left,#252525,#1a1a1a,#000000);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+ul {
+    justify-content: space-between;
+    list-style-type: none;
+    display: flex;
+    padding: 0rem 2rem;
+    font-size: 12px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    padding: 30px;
+    margin: 2px;
+}

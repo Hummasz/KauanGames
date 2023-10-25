@@ -1,0 +1,102 @@
+#gameArea{position:relative;}#gameArea{width:225pt;}#gameArea{height:18.75pc;}#gameArea{border-left-width:.125pc;}#gameArea{border-bottom-width:.125pc;}#gameArea{border-right-width:.125pc;}#gameArea{border-top-width:.125pc;}body{display:flex;}#gameArea{border-left-style:solid;}#gameArea{border-bottom-style:solid;}#gameArea{border-right-style:solid;}body{justify-content:center;}#gameArea{border-top-style:solid;}#gameArea{border-left-color:#333;}#gameArea{border-bottom-color:#333;}#gameArea{border-right-color:#333;}#gameArea{border-top-color:#333;}#gameArea{border-image:none;}#square{position:absolute;}#square{width:3.125pc;}#square{height:50px;}#square{background-color:#007bff;}#square{transition:all .2s;}body{align-items:center;}body{height:100vh;}body{background-image:linear-gradient(to top left,#252525,#1a1a1a,#000000);}
+
+@media (max-width:900px){
+    .celular2, .celular{
+        display: none;
+    }
+    .info-topo{
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        margin:0;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtitulo2 {
+        text-align: center;
+    }
+    .navegacao a {
+        padding: 10px;
+    }
+    .botao-apps {
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-bussines{
+        text-align: center;
+    }
+}
+@media (max-width:760px){
+    .container-navegacao {
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+    .logo {
+        padding: 0 5px;
+        margin-bottom: 6px;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tipo-servicos {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 425px;
+        padding: 0;
+    }
+}
+@media(max-width:676px){
+    .navegacao {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .works{
+        font-size: 35px;
+    }
+}
+@media(max-width:462px){    
+    .info-topo {
+        max-width: 290px;       
+    }
+    .texto-topo {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo {
+        font-size: 32px;
+    }
+    .text {
+        width: 280px;
+        margin: 15px 0;
+    }
+    .botao-apps {
+        flex-direction: column;        
+        width: 100%;
+    }
+    .botaoapp{
+        max-width: 100%;
+    }
+}
+@media(max-width:436px){
+    .tipo-servicos {
+        max-width: 275px;
+    }
+}
